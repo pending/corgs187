@@ -1,0 +1,67 @@
+html {
+	background-color: #9DCDCE;
+	font-family: 'News Cycle', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+}
+body {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+header {
+	position: relative;
+	border-bottom: 1px solid white;
+	height: 60px;
+}
+.inline {
+	display: inline-block;
+	margin-top: 0;
+}
+#logo {
+	padding: 15px 10px;
+	margin: 0;
+	color: white;
+}
+header table {
+	float: right;
+	padding: 20px 20px 10px 20px;
+}
+a:link { color: #3E5254; text-decoration: none; }      /* unvisited link */
+a:visited { color: #3E5254; }  /* visited link */
+a:hover { color: black; text-decoration: none; }  /* mouse over link */
+a:active { color: white;}  /* selected link */
+tbody {
+	text-align: center;
+	font-size: 15px;
+	font-style: bold;
+}
+td {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#main {
+	padding-top: 50px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#main embed {
+	width: 100%;
+}
+#main a:link { color: white; text-decoration: none; }      /* unvisited link */
+#main a:visited { color: white; }  /* visited link */
+#main a:hover { color: #3E5254; text-decoration: none; }  /* mouse over link */
+#main a:active { color: #3E5254;}  /* selected link */
+#signature {
+	float: right;
+	color: #3E5254;
+}
+footer {
+	position: fixed;
+	bottom: 0;
+	text-align: right;
+	width: 80%;
+	height: 30px;
+	font-size: 10px;
+	color: #3E5254;
+}
