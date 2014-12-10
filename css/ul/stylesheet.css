@@ -5,18 +5,6 @@ html, body {
 #menu a{
 	text-decoration: none;
 }
-#showTop {
-	background: url(../../img/menu.png) no-repeat;
-	background-color: white;
-	text-indent: 39px;
-	height: 40px;
-	font-size: 20px;
-	font-family: 'Montserrat', sans-serif;
-	color: #9DCDCE;
-	z-index: 99999;
-	position: fixed;
-	top: 50%;
-}
 #wrapper {
 	height: 100px;
 	margin: 0;
@@ -56,7 +44,6 @@ html, body {
 	background-color: white;
 	padding-top: 10px;
 	margin-top: 9px;
-	margin-left: 38%;
 	font-family: 'Quattrocento Sans';
 	font-size: 18px;
 	padding-left: 5px;
@@ -79,25 +66,21 @@ input [type="text"] {
 #submit {
 	background: url(../../img/search.png) no-repeat;
 }
-#about-li {
+#adopt-li {
 	width: 150px; /* Each menu item is 190px wide */
 	padding-right: 20px;
 }
-#academics-li {
-	width: 210px;
+#learnmore-li {
+	width: 302px;
 	margin-left: -35px;
 }
-#research-li {
-	width: 195px;
+#rehome-li {
+	width: 160px;
 	margin-left: -15px;
 }
-#admissions-li {
-	width: 215px;
+#support-li {
+	width: 200px;
 	margin-left: -15px;
-}
-#campuslife-li {
-	width: 210px;
-	margin-left: -20px: 
 }
 #primary-nav {
 	font-size: 25px;
@@ -109,21 +92,17 @@ input [type="text"] {
 #primary-nav li {
 	line-height: 0.75em;
 }
-#about {
-	background: url(../../img/arrow-down.png) 127px no-repeat;
+#adopt {
+	background: url(../../img/arrow-down.png) 120px no-repeat;
 }
-#academics {
-	background: url(../../img/arrow-down.png) 188px no-repeat;
+#learnmore {
+	background: url(../../img/arrow-down.png) 280px no-repeat;
 }
-#research {
-	background: url(../../img/arrow-down.png) 170px no-repeat;
+#rehome {
+	background: url(../../img/arrow-down.png) 135px no-repeat;
 }
-#admissions {
-	background: url(../../img/arrow-down.png) 195px no-repeat;
-}
-#campuslife {
-	background: url(../../img/arrow-down.png) 185px no-repeat;
-	padding-right: 10px;
+#support {
+	background: url(../../img/arrow-down.png) 175px no-repeat;
 }
 .navbar li {
 	height: auto;
@@ -146,7 +125,7 @@ input [type="text"] {
 }
 .navbar li ul 	{
 	display: none;  /* Hides the drop-down menu */
-	height: auto;									
+	height: auto;									 
 	margin: 0; /* Aligns drop-down box underneath the menu item */
 	margin-top: 15px;
 	padding: 0; /* Aligns drop-down box underneath the menu item */		
@@ -172,143 +151,15 @@ input [type="text"] {
 	background-color: #E7E7E7;
 	color: white;
 }
-#about-drop {
+#adopt-drop {
 	margin-left: 35px;
 }
-#about-drop li a {
+#adopt-drop li a {
 	padding-left: 15px;
 }
-#campuslife-li ul {
+#learnmore-li ul {
 	margin-left: 25px;
 }
-#slider1_container {
-	position: relative; 
-	margin: 0 auto;
-    top: 0px; 
-    left: 0px; 
-    width: 100%; 
-    height: 400px; 
-    overflow: hidden;
-}
-#slides-container {
-	cursor: move; 
-	position: absolute; 
-	left: 0px; 
-	top: 0px; 
-	width: 100%;
-	height: 400px; 
-	overflow: hidden;
-}
-.gallery-title {
-	position: absolute; 
-	width: 480px; 
-	height: 120px; 
-	top: 30px; 
-	left: 52px; 
-	padding: 5px;
-	text-align: center; 
-	line-height: 60px; 
-	text-transform: uppercase; 
-	font-size: 55px;
-	color: #FFFFFF;
-	font-family: 'Montserrat', sans-serif;
-	text-shadow: 1px 1px 1px rgba(0,0,0,.3);
-}
-.gallery-text {
-	position: absolute; 
-	width: 480px; 
-	height: 120px; 
-	top: 300px; 
-	right: 25px; 
-	margin-top: -55px;
-	text-align: left; 
-	line-height: 36px; 
-	font-size: 30px;
-	color: #FFFFFF;
-	font-family: 'Montserrat', sans-serif;
-	text-shadow: 1px 1px 1px rgba(0,0,0,.3);
-}
-/* jssor slider bullet navigator skin 21 css */
-/*
-.jssorb21 div           (normal)
-.jssorb21 div:hover     (normal mouseover)
-.jssorb21 .av           (active)
-.jssorb21 .av:hover     (active mouseover)
-.jssorb21 .dn           (mousedown)
-*/
-.jssorb21 div, .jssorb21 div:hover, .jssorb21 .av
-{
-    background: url(../../img/b21.png) no-repeat;
-    overflow:hidden;
-    cursor: pointer;
-}
-.jssorb21 div { background-position: -5px -5px; }
-.jssorb21 div:hover, .jssorb21 .av:hover { background-position: -35px -5px; }
-.jssorb21 .av { background-position: -65px -5px; }
-.jssorb21 .dn, .jssorb21 .dn:hover { background-position: -95px -5px; }
-#bullet-nav {
-	position: absolute; 
-	bottom: 26px; 
-	left: 6px;
-}
-#bullet-nav-proto {
-	position: absolute; 
-	width: 19px; 
-	height: 19px; 
-	text-align:center; 
-	line-height:19px; 
-	color:White; 
-	font-size:12px;
-}
-/* jssor slider arrow navigator skin 21 css */
-/*
-.jssora21l              (normal)
-.jssora21r              (normal)
-.jssora21l:hover        (normal mouseover)
-.jssora21r:hover        (normal mouseover)
-.jssora21ldn            (mousedown)
-.jssora21rdn            (mousedown)
-*/
-.jssora21l, .jssora21r, .jssora21ldn, .jssora21rdn
-{
-	position: absolute;
-	cursor: pointer;
-	display: block;
-    background: url(../../img/a21.png) center center no-repeat;
-    overflow: hidden;
-}
-.jssora21l { background-position: -3px -33px; }
-.jssora21r { background-position: -63px -33px; }
-.jssora21l:hover { background-position: -123px -33px; }
-.jssora21r:hover { background-position: -183px -33px; }
-.jssora21ldn { background-position: -243px -33px; }
-.jssora21rdn { background-position: -303px -33px; }
-#arrow-left {
-	width: 55px; 
-	height: 55px; 
-	top: 123px; 
-	left: 8px;
-}
-#arrow-right {
-	width: 55px; 
-	height: 55px; 
-	top: 123px; 
-	right: 8px;
-}
-#awards-outer-wrapper {
-	width: 100%;
-	background-color: #F0EDE3;
-	height: 190px;
-}
-#awards-wrapper {
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: #F0EDE3;
-	position: relative;
-	height: 100%;
-}
-.award,
 .event {
 	width: 33%;
 	display: inline-block;
@@ -316,36 +167,11 @@ input [type="text"] {
 	margin-right: auto;
 	height: 165px;
 }
-.award .award-content,
 .event .event-content  {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-}
-#award-1 h1,
-#award-1 h4,
-#award-3 h1,
-#award-3 h2,
-#award-3 h4,
-#event-1 h1 {
-	margin: 0;
-}
-#award-1 {
-	margin-top: 55px;
-}
-#award-2 {
-	position: absolute;
-	top: -35px;
-}
-#award-2 h2 {
-	background: url(../../img/laurel.svg) center no-repeat;
-	height: 130px;
-	padding-top: 85px;
-}
-#award-3 {
-	float: right;
-	padding-top: 35px;
 }
 #events-outer-wrapper {
 	width: 100%;
