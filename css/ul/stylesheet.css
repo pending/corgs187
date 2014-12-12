@@ -176,16 +176,25 @@ input [type="text"] {
 	color: white;
 	font-size: 20px;
 	background: transparent;
+	o-transition:color .2s ease-out, background .2s ease-in;
+	-ms-transition:color .2s ease-out, background .2s ease-in;
+	-moz-transition:color .2s ease-out, background .2s ease-in;
+	-webkit-transition:color .2s ease-out, background .2s ease-in;
+	transition:color .2s ease-out, background .2s ease-in;
 }
 #main-wrapper a {
 	color: white;
+	o-transition:color .2s ease-out, background .2s ease-in;
+	-ms-transition:color .2s ease-out, background .2s ease-in;
+	-moz-transition:color .2s ease-out, background .2s ease-in;
+	-webkit-transition:color .2s ease-out, background .2s ease-in;
+	transition:color .2s ease-out, background .2s ease-in;
 }
 #adopttodaybutton:hover {
 	background: white;
 	border-color: white;
 }
 #adopttodaybutton:hover #adopttodayword{
-	background: white;
 	color: rgba(255, 158, 37, .9);
 }
 footer {
