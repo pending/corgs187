@@ -2,11 +2,17 @@
 <html lang="en">
 	<head>
     	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'/>
-    	<link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans' rel='stylesheet' type='text/css'>
+    	<link href='http://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
 		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 		<link rel="stylesheet" type="text/css" href="css/mystyle.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
     	<link href="css/ul/stylesheet.css" rel="stylesheet"/>
+
+    			<!-- jQuery -->
+		<script src="js/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="js/jquery.videoBG.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+
 		<meta charset="UTF-8">
 		<title>CORGS 187A</title>
 	</head>
@@ -24,7 +30,7 @@
 				</ul>
 				<ul class="navbar" id="primary-nav">
 					<li id="adopt-li">
-						<a href="Adopt.html" id="adopt">Adopt</a>
+						<a href="Adopt.html" id="adopt" class="dropdown">Adopt</a>
 						<ul id="adopt-drop">
 							<li><a href="facts.html">Adoption Process</a></li>
 							<li><a href="#">Available Corgis</a></li>
@@ -33,21 +39,21 @@
 						</ul>
 					</li>
 					<li id="learnmore-li">
-						<a href="learnmore.html" id="learnmore">Learn About Corgis</a>
+						<a href="learnmore.html" id="learnmore"  class="dropdown">About Corgis</a>
 						<ul>
 							<li><a href="#">Breed</a></li>
 							<li><a href="#">BLAHBLHALH</a></li>
 						</ul>
 					</li>
 					<li id="rehome-li">
-						<a href="Rehome.html" id="rehome">Rehome</a>
+						<a href="Rehome.html" id="rehome" class="dropdown">Rehome</a>
 						<ul>
 							<li><a href="#">Other Options</a></li>
 							<li><a href="#">BLAHALHLA</a></li>
 						</ul>
 					</li>
 					<li id="support-li">
-						<a href="Support.html" id="support">Support Us</a>
+						<a href="Support.html" id="support" class="dropdown">Support Us</a>
 						<ul>
 							<li><a href="#">Donate</a></li>
 							<li><a href="#">Volunteer</a></li>
@@ -58,27 +64,18 @@
 		</div>
 		<!-- Top and Primary Navigation End -->
 
-		<!-- Events Begin -->
-		<!-- <div id="events-outer-wrapper">
-			<div id="events-wrapper">
-				<div id="events-title">
-					<h1>What is happening?</h1>
-				</div>
-				<div id="event-1" class="event">
-					<h1 class="event-content">Casual Ride</h1>
-				</div>
-				<div id="event-2" class="event">
-					<h1 class="event-content">Aleida Guevara Talk</h1>
-				</div>
-				<div id="event-3" class="event">
-					<h1 class="event-content">Christmas Tour</h1>
-				</div>	
-			</div>
+		<!-- <div id="main-wrapper">
+			<img src="img/christmas.png" alt="christmas corgis" />
 		</div> -->
-		<!-- Events End -->
+		<div id="main-wrapper">
+			<h1>More than just adorable,</h1>
+			<h1 id="right">They're family.</h1>
+			<button type="button">
+				<a href="Adopt.html">Adopt today</a>
+			</button>
+		</div>
 
-		<!-- jQuery -->
-		<script src="js/jquery-1.11.0.min.js"></script>
+
 
 		<footer>
 			<div id="footer-wrapper">
@@ -97,7 +94,7 @@
 					</ul>
 				</div>
 				<div id="footer-block-center">
-					<a href="home.html"><img src="img/logo-white.gif" alt="logo" /></a> 
+					<!-- <a href="home.html"><img src="img/logo-white.gif" alt="logo" /></a>  -->
 					<ul>
 						<li>
 							<a class="facebook" href="https://www.facebook.com/UniofLeicester">Facebook</a>
