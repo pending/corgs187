@@ -48,9 +48,14 @@ article > p {
 		color: purple;
 	}
 
+.left {
+	width: 50%;
+}
+
 .right {
-	flex: 0 0 500px;
+	/*flex: 0 0 500px;*/
 	margin-left: 2em;
+	width: 50%;
 }
 	.right img {
 		width: 100%;
