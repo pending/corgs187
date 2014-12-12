@@ -61,3 +61,12 @@ article > p {
 		width: 100%;
 		height: auto;
 	}
+
+
+
+/* Rehome CSS */
+
+#events-wrapper {
+	padding: 0px 30px 0px 30px;
+}
+
