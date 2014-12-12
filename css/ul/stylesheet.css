@@ -1,5 +1,5 @@
 html, body {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	margin: 0;
 }
 #menu a{
@@ -37,7 +37,7 @@ html, body {
 #top-nav,
 #primary-nav {
 	position: relative;
-	font-family: 'Quattrocento Sans';
+	font-family: 'Raleway';
 }
 #top-nav {
 	width: 100%;
@@ -84,7 +84,7 @@ input [type="text"] {
 }
 #primary-nav {
 	font-size: 25px;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	padding-bottom: 20px;
 	padding-top: 13px;
 	width: 100%;
@@ -92,17 +92,8 @@ input [type="text"] {
 #primary-nav li {
 	line-height: 0.75em;
 }
-#adopt {
-	background: url(../../img/arrow-down.png) 120px no-repeat;
-}
-#learnmore {
-	background: url(../../img/arrow-down.png) 280px no-repeat;
-}
-#rehome {
-	background: url(../../img/arrow-down.png) 135px no-repeat;
-}
-#support {
-	background: url(../../img/arrow-down.png) 175px no-repeat;
+.dropdown {
+
 }
 .navbar li {
 	height: auto;
@@ -117,11 +108,11 @@ input [type="text"] {
 	text-align: center;
 }
 #primary-nav.navbar li a:hover {
-	color: #F15D2F;
+	color: black;
 }
 #top-nav.navbar a,
 #primary-nav.navbar a {
-	color: #660000;
+	color: #F79205;
 }
 .navbar li ul 	{
 	display: none;  /* Hides the drop-down menu */
@@ -160,94 +151,40 @@ input [type="text"] {
 #learnmore-li ul {
 	margin-left: 25px;
 }
-.event {
-	width: 33%;
-	display: inline-block;
-	margin-left: auto;
-	margin-right: auto;
-	height: 165px;
-}
-.event .event-content  {
+#main-wrapper {
 	display: block;
-	margin-left: auto;
+	position: relative;
 	margin-right: auto;
-	text-align: center;
-}
-#events-outer-wrapper {
-	width: 100%;
-	background-color: #F0EDE3;
-	padding-bottom: 75px;
-}
-#events-wrapper {
-	width: 90%;
 	margin-left: auto;
-	margin-right: auto;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	width: 400px;
+	padding: 20px 50px;
+	background: rgba(255, 158, 37, .9)
 }
-#events-mid-border {
-	border-top: 1px solid gray;
-}
-#events-title::before {
-	left: -340px;
-}
-#events-title::before,
-#events-title::after {
-	position: absolute;
-	content: "";
-	height: 1px;
-	width: 340px;
-	background-color: rgba(255,255,255,.2);
-	display: block;
-	bottom: 13px;
-}
-#events-title::after {
-	right: -340px;
-}
-#events-title {
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	padding-top: 10px;
-}
-#events-title h1 {
-	display: inline-block;
-	margin: 0;
-	color: #85754d;
-	text-shadow: 1px 1px 1px rgba(0,0,0,.3);
-	z-index: 999;
-}
-
-#event-1 h1 {
-	background: url(../../img/cycling.jpg) center -80px no-repeat;
-	padding-top: 15px;
-	height: 185px;
-}
-#event-1:hover h1{
-	opacity: .6;
-}
-#event-2 h1 {
-	background: url(../../img/talk.jpeg) center -44px no-repeat;
-	padding-top: 15px;
-	height: 185px;
-}
-#event-2:hover h1{
-	opacity: .6;
-}
-#event-3 h1 {
-	background: url(../../img/campus-winter.jpg) center no-repeat;
-	padding-top: 15px;
-	height: 185px;
-}
-#event-3:hover h1{
-	opacity: .6;
-}
-.event-content {
+#main-wrapper h1 {
 	color: white;
-	text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+}
+#main-wrapper h1#right {
+	float: right;
+	font-size: 2.5em;
+}
+#main-wrapper button {
+	border: 2px solid;
+	padding: 15px;
+	margin-top: 50px;
+	color: white;
+	font-size: 20px;
+	background: transparent;
+}
+#main-wrapper a {
+	color: white;
 }
 footer {
 	background-color: #262626;
 	height: 225px;
 	color: gray;
+	height: 120px;
 }
 footer ul {
 	list-style: none;
@@ -256,8 +193,8 @@ footer ul {
 	width: 85%;
 	margin-right: auto;
 	margin-left: auto;
-	padding-top: 40px;
-	font-family: 'Quattrocento Sans', sans-serif;
+	padding-top: 20px;
+	font-family: 'Raleway', sans-serif;
 }
 .footer-block {
 	width: 17%;
