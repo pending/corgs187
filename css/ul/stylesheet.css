@@ -180,6 +180,14 @@ input [type="text"] {
 #main-wrapper a {
 	color: white;
 }
+#adopttodaybutton:hover {
+	background: white;
+	border-color: white;
+}
+#adopttodaybutton:hover #adopttodayword{
+	background: white;
+	color: rgba(255, 158, 37, .9);
+}
 footer {
 	background-color: #262626;
 	height: 225px;
