@@ -2,13 +2,13 @@
 <html lang="en">
 	<head>
     	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'/>
-    	<link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans' rel='stylesheet' type='text/css'>
+    	<link href='http://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
 		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 		<link rel="stylesheet" type="text/css" href="css/mystyle.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
     	<link href="css/ul/stylesheet.css" rel="stylesheet"/>
     	<link rel="stylesheet" type="text/css" href="css/Adopt.css" />
-		<script src="js/modernizr.custom.js"></script>
 		<meta charset="UTF-8">
 		<title>Adoption Process</title>
 	</head>
@@ -28,7 +28,7 @@
 					<li id="adopt-li">
 						<a href="Adopt.html" id="adopt" class="dropdown">Adopt</a>
 						<ul id="adopt-drop">
-							<li><a href="facts.html">Adoption Process</a></li>
+							<li><a href="AdoptionProcess.html">Adoption Process</a></li>
 							<li><a href="#">Available Corgis</a></li>
 							<li><a href="#">Adoption Checklist</a></li>
 							<li><a href="#">Resources</a></li>
@@ -61,80 +61,54 @@
 		<!-- Top and Primary Navigation End -->
 		
 		<!-- Events Begin -->
-		<div id="events-outer-wrapper">
-			<div id="events-wrapper">
-				<article> 
+		<div class="container-fluid">
 			<h1>Adoption Process</h1>
 			<hr/>
-			<p>Congratulations on deciding to adopt a dog! You are embarking on a wonderful and rewarding relationship.</p>
-			<div class="content"> 
-				<div class="left">
-					<div class="choice">
-						<div class="pic">
-							<img src="img/adopt_landing1.jpg" alt=""/>
-						</div>
-						<div class="text">
-							<h2><a href="AdoptionProcess.html">Adoption Process</a></h2>
-							<p>A step by step process to help guide you in adopting your new pet.</p>
-						</div>
+			<p>Here is how the process works:</p>
+			<div class="row">
+				<div class="col-md-6 col-sm-12 choice">
+					<div class="pic">
+						<img class="img-responsive" src="img/adopt_landing1.jpg" alt=""/>
 					</div>
-					<div class="choice">
-						<div class="pic">
-							<img src="img/adopt_landing2.jpg" alt=""/>
-						</div>
-						<div class="text">
-							<h2>
-								<a href="Undergraduate.html">Available Corgis</a>
-							</h2>
-							<p>We want to show you all the available Corgis in your surrounding area at the moment so you can choose a friend that is best fit for you! Check out the Corgis near you. You can also refine your search for specific Corgis through here. </p>
-						</div>
+					<div class="text">
+						<h2>Step 1 : Explore the corgis currently available for adoption</h2>
+						<p> You can look at the corgis up for adoption <a href="CorgiProfiles.html">here</a>. We keep this updated as corgis are adopted or become available. Check back often!</p>
 					</div>
-					<div class="choice">
-						<div class="pic">
-							<img src="img/adopt_landing3.jpeg" alt=""/>
-						</div>
-						<div class="text">
-							<h2><a href="">Adoption Checklist</a></h2>
-							<p>Thinking about adopting a dog? Because adopting a new dog comes with a lot of change for both dog and dog parent, we’ve compiled a checklist to help make the transition as smooth as possible.</p>
-						</div>
+				</div>
+				<div class="col-md-6 col-sm-12 choice">
+					<div class="pic">
+						<img class="img-responsive" src="img/adopt_landing2.jpg" alt=""/>
 					</div>
-					<div class="choice">
-						<div class="pic">
-							<img src="img/adopt_landing4.jpg" alt=""/>
-						</div>
-						<div class="text">
-							<h2><a href="">Resources</a></h2>
-							<p>Here is a list of useful links and articles regarding adopting your new pet!</p>
-						</div>
+					<div class="text">
+						<h2>Step 2 : Visit one of our adoption centers to meet potential pets</h2>
+						<p>Once you have found an animal that you are interested in adopting, contact a volunteer or staff member about visiting with the pet. To ensure the pet is compatible with everyone, all household/family members should interact with the animal before the adoption is finalized. If you are interested in adopting one of our Hidden Gems, call to schedule a visit. </p>
 					</div>
-				</div> <!-- end of left -->
+				</div>
+			</div> <!-- end of row -->
 
-				
-
-			</div>
-		</article> 
-			</div>
-		</div>
+			<div class="row">
+				<div class="col-md-6 col-sm-12 choice">
+					<div class="pic">
+						<img class="img-responsive" src="img/adopt_landing3.jpeg" alt=""/>
+					</div>
+					<div class="text">
+						<h2>Step 3 : Complete an adoption application and interview</h2>
+						<p>To begin the adoption process, you must agree to our adoption policies and complete an adoption application form. We will also review with you any medical or behavioral information relevant to that animal, explain policies and services available to adopters, and collect adoption fees.</p>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-12 choice">
+					<div class="pic">
+						<img class="img-responsive" src="img/adopt_landing4.jpg" alt=""/>
+					</div>
+					<div class="text">
+						<h2>Step 4 : Welcome your new family member home</h2>
+						<p> We want to provide services for all stages of a corgi's life. Our website also has many resources to help pet owners including microchipping, spay/neuter, pet friendly housing and a lost pet bulletin board.</p>
+					</div>
+				</div>
+			</div> <!-- end of row -->
+		</div> 
 		<!-- Events End -->
-
-		<!-- jQuery + Slider scripts -->
-		<script src="js/jquery-1.11.0.min.js"></script>
-	    <script type="text/javascript" src="js/jssor.js"></script>
-	    <script type="text/javascript" src="js/jssor.slider.js"></script>
-	    <script type="text/javascript" src="js/script.js"></script>
-		<!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->
-		<script src="js/classie.js"></script>
-		<script>
-			var menuTop = document.getElementById( 'menu' ),
-				showTop = document.getElementById( 'showTop' )
-				body = document.body;
-
-			showTop.onclick = function() {
-				classie.toggle( this, 'active' );
-				classie.toggle( menuTop, 'cbp-spmenu-open' );
-			};
-		</script>
-
+	   
 		<footer>
 			<div id="footer-wrapper">
 				<div class="footer-block">
@@ -183,6 +157,9 @@
 
 			</div>
 		</footer>
+
+		<!-- jQuery + Slider scripts -->
+		<script src="js/jquery-1.11.0.min.js"></script>
 
 	</body>
 </html>
