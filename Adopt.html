@@ -9,7 +9,6 @@
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
     	<link href="css/ul/stylesheet.css" rel="stylesheet"/>
     	<link rel="stylesheet" type="text/css" href="css/Adopt.css" />
-		<script src="js/modernizr.custom.js"></script>
 		<meta charset="UTF-8">
 		<title>Adopt</title>
 	</head>
@@ -29,7 +28,7 @@
 					<li id="adopt-li">
 						<a href="Adopt.html" id="adopt" class="dropdown">Adopt</a>
 						<ul id="adopt-drop">
-							<li><a href="facts.html">Adoption Process</a></li>
+							<li><a href="AdoptionProcess.html">Adoption Process</a></li>
 							<li><a href="#">Available Corgis</a></li>
 							<li><a href="#">Adoption Checklist</a></li>
 							<li><a href="#">Resources</a></li>
@@ -67,18 +66,18 @@
 			<hr/>
 			<p>Congratulations on deciding to adopt a dog! You are embarking on a wonderful and rewarding relationship.</p>
 			<div class="row">
-				<div class="col-md-6 choice">
+				<div class="col-md-6 col-sm-12 choice">
 					<div class="pic">
-						<img src="img/adopt_landing1.jpg" alt=""/>
+						<img class="img-responsive" src="img/adopt_landing1.jpg" alt=""/>
 					</div>
 					<div class="text">
 						<h2><a href="AdoptionProcess.html">Adoption Process</a></h2>
 						<p>A step by step process to help guide you in adopting your new pet.</p>
 					</div>
 				</div>
-				<div class="col-md-6 choice">
+				<div class="col-md-6 col-sm-12 choice">
 					<div class="pic">
-						<img src="img/adopt_landing2.jpg" alt=""/>
+						<img class="img-responsive" src="img/adopt_landing2.jpg" alt=""/>
 					</div>
 					<div class="text">
 						<h2>
@@ -90,18 +89,18 @@
 			</div> <!-- end of row -->
 
 			<div class="row">
-				<div class="col-md-6 choice">
+				<div class="col-md-6 col-sm-12 choice">
 					<div class="pic">
-						<img src="img/adopt_landing3.jpeg" alt=""/>
+						<img class="img-responsive" src="img/adopt_landing3.jpeg" alt=""/>
 					</div>
 					<div class="text">
 						<h2><a href="">Adoption Checklist</a></h2>
 						<p>Thinking about adopting a dog? Because adopting a new dog comes with a lot of change for both dog and dog parent, we’ve compiled a checklist to help make the transition as smooth as possible.</p>
 					</div>
 				</div>
-				<div class="col-md-6 choice">
+				<div class="col-md-6 col-sm-12 choice">
 					<div class="pic">
-						<img src="img/adopt_landing4.jpg" alt=""/>
+						<img class="img-responsive" src="img/adopt_landing4.jpg" alt=""/>
 					</div>
 					<div class="text">
 						<h2><a href="Resou">Resources</a></h2>
@@ -111,25 +110,7 @@
 			</div> <!-- end of row -->
 		</div> 
 		<!-- Events End -->
-
-		<!-- jQuery + Slider scripts -->
-		<script src="js/jquery-1.11.0.min.js"></script>
-	    <script type="text/javascript" src="js/jssor.js"></script>
-	    <script type="text/javascript" src="js/jssor.slider.js"></script>
-	    <script type="text/javascript" src="js/script.js"></script>
-		<!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->
-		<script src="js/classie.js"></script>
-		<script>
-			var menuTop = document.getElementById( 'menu' ),
-				showTop = document.getElementById( 'showTop' )
-				body = document.body;
-
-			showTop.onclick = function() {
-				classie.toggle( this, 'active' );
-				classie.toggle( menuTop, 'cbp-spmenu-open' );
-			};
-		</script>
-
+	   
 		<footer>
 			<div id="footer-wrapper">
 				<div class="footer-block">
@@ -178,6 +159,9 @@
 
 			</div>
 		</footer>
+
+		<!-- jQuery + Slider scripts -->
+		<script src="js/jquery-1.11.0.min.js"></script>
 
 	</body>
 </html>
