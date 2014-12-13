@@ -17,6 +17,31 @@ article > p {
 	justify-content: space-between;
 }
 
+.choice .pic:hover {
+	
+}
+
+.choice .pic:hover figcaption{
+	background: rgba(0,0,0,0.8);
+	color: white;
+	z-index: 100;
+	visibility: visible;
+}
+
+figcaption {
+	padding-top: 50px;
+	color: white;
+	position: absolute;
+	top: 0px;
+	width: 300px;
+	height: 300px;
+	visibility: hidden;
+	-webkit-transition: all 200ms ease-out;
+	-moz-transition: all 200ms ease-out;
+	transition: all 200ms ease-out;
+	vertical-align: middle;
+}
+
 .choice {
 	display: flex;
 	margin-bottom: 2em;
@@ -32,19 +57,22 @@ article > p {
 		margin: auto;
 	}
 	.choice img {
-		width: 300px;
-		height: auto;
+		height: 300px;
+		/*height: auto;*/
 	}
 	.choice h2 {
 		margin: 0em 0 0.5em 0;
 	}
 	.choice a:link, .choice a:visited {
 		text-decoration: none;
-		color: black;
+		color: white;
+		border: 2px solid white;
+		padding: 3px;
 	}
 	.choice a:hover {
-		text-decoration: underline;
-		color: purple;
+		text-decoration: none;
+		color: rgba(255, 158, 37, 1);
+		border: 2px solid rgba(255, 158, 37, 1);
 	}
 
 .left {
