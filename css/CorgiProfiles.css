@@ -44,7 +44,7 @@ figcaption {
 
 .choice {
 	display: flex;
-	margin-bottom: 2em;
+	margin-bottom: 3em;
 	text-align: center;
 }
 	.choice .text {
@@ -75,16 +75,27 @@ figcaption {
 		border: 2px solid rgba(255, 158, 37, 1);
 	}
 
-.left {
-	width: 50%;
+.searchlabel {
+	font-size: 20px;
 }
 
-.right {
-	/*flex: 0 0 500px;*/
-	margin-left: 2em;
-	width: 50%;
+.searchselection {
+	list-style-type: none;
 }
-	.right img {
-		width: 100%;
-		height: auto;
-	}
+
+.searchbutton, .searchbutton:link, .searchbutton:visited {
+	text-decoration: none;
+	color: black;
+	border: 2px solid black;
+	padding: 5px;
+	font-size: 2em;
+}
+
+.searchbutton:hover {
+	text-decoration: none;
+	color: white;
+	background: rgba(255, 158, 37, 1);
+	border: 2px solid rgba(255, 158, 37, 1);
+	padding: 5px;
+	font-size: 2em;
+}

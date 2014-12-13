@@ -1,0 +1,52 @@
+#main-content {
+	text-align: center;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+#change {
+	color: gray;
+}
+#main-content h1 {
+	font-size: 45px;
+}
+#main-content p {
+	font-size: 20px;
+	color: gray;
+}
+#corgi-profiles {
+	margin-top: 50px;
+}
+#buttons {
+	margin-bottom: 50px;
+}
+#buttons a {
+	color: white;
+}
+#donate {
+	margin-right: 20px;
+}
+#donate,
+#volunteer {
+	border: 2px solid;
+	padding: 15px;
+	/*margin-top: 25px;*/
+	color: white;
+	font-size: 20px;
+	background: rgba(255, 158, 37, .9);
+	o-transition:color .2s ease-out, background .2s ease-in;
+	-ms-transition:color .2s ease-out, background .2s ease-in;
+	-moz-transition:color .2s ease-out, background .2s ease-in;
+	-webkit-transition:color .2s ease-out, background .2s ease-in;
+	transition:color .2s ease-out, background .2s ease-in;
+}
+#donate:hover,
+#volunteer:hover {
+	background: white;
+	border-color: rgba(255, 158, 37, .9);
+}
+#donate:hover,
+#buttons a:hover,
+#volunteer:hover{
+	color: rgba(255, 158, 37, .9);
+}

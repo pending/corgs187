@@ -7,6 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 		<link rel="stylesheet" type="text/css" href="css/mystyle.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="css/donate.css" />
     	<link href="css/ul/stylesheet.css" rel="stylesheet"/>
     	<link rel="stylesheet" type="text/css" href="css/Adopt.css" />
 		<meta charset="UTF-8">
@@ -30,7 +31,7 @@
 						<ul id="adopt-drop">
 							<li><a href="AdoptionProcess.html">Adoption Process</a></li>
 							<li><a href="CorgiProfiles.html">Available Corgis</a></li>
-							<li><a href="AdoptionChecklist.html">Adoption Checklist</a></li>
+							<li><a href="#">Adoption Checklist</a></li>
 							<li><a href="#">Resources</a></li>
 						</ul>
 					</li>
@@ -53,10 +54,10 @@
 						</ul>
 					</li>
 					<li id="support-li">
-						<a href="Support.html" id="support" class="dropdown">Support Us</a>
+						<a href="support.html" id="support" class="dropdown">Support Us</a>
 						<ul>
-							<li><a href="#">Donate</a></li>
-							<li><a href="#">Volunteer</a></li>
+							<li><a href="donate.html">Donate</a></li>
+							<li><a href="volunteer.html">Volunteer</a></li>
 						</ul>
 					</li>
 				</ul>
@@ -64,56 +65,31 @@
 		</div>
 		<!-- Top and Primary Navigation End -->
 		
-		<!-- Events Begin -->
-		<div class="container-fluid">
-			<h1>Adopt</h1>
+		<!-- Main Begin -->
+		<div class="container-fluid" id="main">
+			<h1><a href="support.html">Support Us</a> / Donate</h1>
 			<hr/>
-			<p>Congratulations on deciding to adopt a dog! You are embarking on a wonderful and rewarding relationship.</p>
-			<div class="row">
-				<div class="col-md-6 col-sm-12 choice">
-					<div class="pic">
-						<img class="img-responsive" src="img/adopt_landing1.jpg" alt=""/>
-					</div>
-					<div class="text">
-						<h2><a href="AdoptionProcess.html">Adoption Process</a></h2>
-						<p>A step by step process to help guide you in adopting your new pet.</p>
+			<div id="main-content">
+				<h2 class="uppercase">changing lives one corgi at a time</h2>
+				<div class="col-md-5 col-sm-12 ">
+					<div>
+						<img class="img-responsive" src="img/donate-corgi.gif" alt=""/>
 					</div>
 				</div>
-				<div class="col-md-6 col-sm-12 choice">
-					<div class="pic">
-						<img class="img-responsive" src="img/adopt_landing2.jpg" alt=""/>
-					</div>
-					<div class="text">
-						<h2>
-							<a href="CorgiProfiles.html">Available Corgis</a>
-						</h2>
-						<p>We want to show you all the available Corgis in your surrounding area at the moment so you can choose a friend that is best fit for you! Check out the Corgis near you. You can also refine your search for specific Corgis through here. </p>
-					</div>
-				</div>
-			</div> <!-- end of row -->
-
-			<div class="row">
-				<div class="col-md-6 col-sm-12 choice">
-					<div class="pic">
-						<img class="img-responsive" src="img/adopt_landing3.jpeg" alt=""/>
-					</div>
-					<div class="text">
-						<h2><a href="AdoptionChecklist.html">Adoption Checklist</a></h2>
-						<p>Thinking about adopting a dog? Because adopting a new dog comes with a lot of change for both dog and dog parent, we’ve compiled a checklist to help make the transition as smooth as possible.</p>
-					</div>
-				</div>
-				<div class="col-md-6 col-sm-12 choice">
-					<div class="pic">
-						<img class="img-responsive" src="img/adopt_landing4.jpg" alt=""/>
-					</div>
-					<div class="text">
-						<h2><a href="Resou">Resources</a></h2>
-						<p>Here is a list of useful links and articles regarding adopting your new pet!</p>
+				<div class="col-md-6 col-sm-12" id="donate">
+					<h1 id="large-donate">DONATE</h1>
+					<h2>How could your resist that cute face?</h2>
+					<input id="donation-input" type="text" name="amount" class="form-control" placeholder="$20.00" autocomplete="off">
+					<div id="buttons">
+						<button id="once" type="button">Once
+						</button>
+						<button id="monthly" type="button">Monthly
+						</button>
 					</div>
 				</div>
 			</div> <!-- end of row -->
 		</div> 
-		<!-- Events End -->
+		<!-- Main End -->
 	   
 		<footer>
 			<div id="footer-wrapper">
@@ -132,7 +108,7 @@
 					</ul>
 				</div>
 				<div id="footer-block-center">
-					<a href="home.html"><img src="img/logo-white.gif" alt="logo" /></a> 
+					<!-- <a href="home.html"><img src="img/logo-white.gif" alt="logo" /></a>  -->
 					<ul>
 						<li>
 							<a class="facebook" href="https://www.facebook.com/UniofLeicester">Facebook</a>

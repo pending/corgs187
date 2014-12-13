@@ -62,6 +62,12 @@ article > p {
 		height: auto;
 	}
 
+.choice .processpic {
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	background-color: white;
+}
 .left_large {
 	width: 68%;
 }
