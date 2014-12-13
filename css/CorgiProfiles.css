@@ -72,6 +72,7 @@ figcaption {
 	.choice a:hover {
 		text-decoration: none;
 		color: rgba(255, 158, 37, 1);
+		border: 2px solid rgba(255, 158, 37, 1);
 	}
 
 .left {
