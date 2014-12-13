@@ -77,6 +77,14 @@ article > p {
 	margin-left: 2em;
 }
 
+.left_medium {
+	margin-left: 4em;
+	width: 50%;
+}
+
+.right_medium {
+	width: 50%;
+}
 /* Rehome CSS */
 
 #events-wrapper {

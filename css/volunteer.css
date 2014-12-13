@@ -1,0 +1,26 @@
+#main-content {
+	text-align: center;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+#change {
+	color: gray;
+}
+#main-content h1 {
+	font-size: 45px;
+}
+#main-content p {
+	font-size: 20px;
+	color: gray;
+}
+h4.number {
+	font-size: 4em;
+	margin: 0;
+}
+#first-row {
+	margin-bottom: 50px;
+}
+#right-nums {
+	margin-top: 30px;
+}
