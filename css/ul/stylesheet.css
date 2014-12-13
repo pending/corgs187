@@ -6,20 +6,24 @@ html, body {
 	text-decoration: none;
 }
 #wrapper {
-	height: 100px;
+	height: 81px;
 	margin: 0;
 	z-index: 99;
 	position: relative;
 	background-color: white;
 }
 #wrapper img {
-	width: 22%;
+	width: 7%;
 	display: inline-block;
 	position: relative;
 	float: left;
 	padding-left: 30px;
+	padding-right: 10px;
 	padding-top: 17px;
 	max-width: 280px;
+}
+.inline {
+	display: inline-block;
 }
 #right-wrapper {
 	width: 75%;
@@ -56,32 +60,32 @@ html, body {
 #top-nav.navbar li {
 	padding-right: 20px;
 }
+#searchbox {
+	margin-top: 30px;
+}
 #submit {
 	background: transparent;
 	border: 1px solid lightgray;
-	padding-bottom: 2px;
+	padding-bottom: 1px;
 	margin-left: -2px;
 }
 input [type="text"] {
 	border: 1px solid gray;
 }
-#submit {
-	background: url(../../img/search.png) no-repeat;
-}
 #adopt-li {
-	width: 150px; /* Each menu item is 190px wide */
+	width: 100px; 
 	padding-right: 20px;
 }
 #learnmore-li {
-	width: 302px;
+	width: 270px;
 	margin-left: -35px;
 }
 #rehome-li {
-	width: 160px;
+	width: 115px;
 	margin-left: -15px;
 }
 #support-li {
-	width: 200px;
+	width: 230px;
 	margin-left: -15px;
 }
 #primary-nav {
@@ -145,13 +149,16 @@ input [type="text"] {
 	color: white;
 }
 #adopt-drop {
-	margin-left: 35px;
-}
-#adopt-drop li a {
-	padding-left: 15px;
+	margin-left: 5px;
 }
 #learnmore-li ul {
-	margin-left: 25px;
+	margin-left: 59px;
+}
+#rehome-li ul {
+	margin-left: 8px;
+}
+#support-li ul {
+	margin-left: 50px; 
 }
 #main-wrapper {
 	display: block;
