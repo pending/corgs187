@@ -208,7 +208,7 @@ footer {
 footer ul {
 	list-style: none;
 }
-#footer-wrapper {
+.footer-wrapper {
 	width: 85%;
 	margin-right: auto;
 	margin-left: auto;
@@ -235,7 +235,7 @@ footer ul {
 .footer-block:nth-child(5){
 	float: right;
 }
-#footer-block-center {
+.footer-block-center {
 	width: 27%;
 	display: inline-block;
 	margin-left: auto;
@@ -243,18 +243,18 @@ footer ul {
 	text-align: center;
 	position: absolute;
 }
-#footer-block-center img {
+.footer-block-center img {
 	width: 170px;
 }
-#footer-block-center ul {
+.footer-block-center ul {
 	list-style-position: inside;
 	padding: 0;
 }
-#footer-block-center ul li {
+.footer-block-center ul li {
 	list-style: none;
 	display: inline-block;
 }
-#footer-block-center ul li a {
+.footer-block-center ul li a {
 	color: #fff;
 	text-indent: -9999px;
 	overflow: hidden;
@@ -262,14 +262,17 @@ footer ul {
 	background: url(../../img/sprite.svg) no-repeat 0 -185px transparent;
 	padding: 8px 21px;
 }
-#footer-block-center ul li a.facebook {
+.footer-block-center ul li a.facebook {
 	background-position: 0 -185px;
 }
-#footer-block-center ul li a.twitter {
+.footer-block-center ul li a.twitter {
 	background-position: -46px -185px;
 }
-#footer-block-center ul li a.youtube {
+.footer-block-center ul li a.youtube {
 	background-position: -138px -185px;
 }
-
+.xfooter-block {
+	width: 17%;
+	display: inline-block;
+}
 
