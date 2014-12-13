@@ -7,7 +7,6 @@ article > p {
 	font-size: 1.6em;
 }
 
-
 .facts h2 {
 	margin-top: 0;
 }
@@ -40,8 +39,8 @@ article > p {
 		margin: 0em 0 0.5em 0;
 	}
 	.choice a:link, .choice a:visited {
-		text-decoration: none;
-		color: black;
+		text-decoration: underline;
+		color: #660000;
 	}
 	.choice a:hover {
 		text-decoration: underline;
