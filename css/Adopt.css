@@ -68,6 +68,14 @@ article > p {
 	-moz-border-radius: 0px;
 	background-color: white;
 }
+.left_large {
+	width: 68%;
+}
+
+.right_large {
+	width: 30%;
+	margin-left: 2em;
+}
 
 /* Rehome CSS */
 
