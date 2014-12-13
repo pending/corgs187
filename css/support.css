@@ -44,6 +44,7 @@
 #volunteer:hover {
 	background: white;
 	border-color: rgba(255, 158, 37, .9);
+	color:rgba(255, 158, 37, .9);
 }
 #donate:hover,
 #buttons a:hover,
