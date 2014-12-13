@@ -62,7 +62,14 @@ article > p {
 		height: auto;
 	}
 
+.left_large {
+	width: 68%;
+}
 
+.right_large {
+	width: 30%;
+	margin-left: 2em;
+}
 
 /* Rehome CSS */
 
