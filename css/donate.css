@@ -1,0 +1,59 @@
+#main-content {
+	/*background-color: #F6F6F6;*/
+	background-color: white;
+	position: relative;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.uppercase {
+	text-transform: uppercase;
+	text-align: center;
+	color: gray;	
+}
+#donate {
+	display: block;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 5%;
+	margin-bottom: 10%;
+	width: 500px;
+	padding: 20px 50px;
+	background: rgba(255, 158, 37, .9);
+	text-align: center;
+}
+#main img {
+	max-width: 75%;
+}
+#donate h1 {
+	font-size: 60px;
+	margin-bottom: 0;
+}
+#donation-input.form-control {
+	height: 56px;
+	font-size: 22px;
+	padding: 15px 15px 13px;
+}
+#once,
+#monthly {
+	border: 2px solid;
+	padding: 15px;
+	margin-top: 25px;
+	color: white;
+	font-size: 20px;
+	background: transparent;
+	o-transition:color .2s ease-out, background .2s ease-in;
+	-ms-transition:color .2s ease-out, background .2s ease-in;
+	-moz-transition:color .2s ease-out, background .2s ease-in;
+	-webkit-transition:color .2s ease-out, background .2s ease-in;
+	transition:color .2s ease-out, background .2s ease-in;
+}
+#once:hover,
+#monthly:hover {
+	background: white;
+	border-color: white;
+}
+#once:hover,
+#monthly:hover{
+	color: rgba(255, 158, 37, .9);
+}

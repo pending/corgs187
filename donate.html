@@ -4,20 +4,16 @@
     	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'/>
     	<link href='http://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
 		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 		<link rel="stylesheet" type="text/css" href="css/mystyle.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="css/donate.css" />
     	<link href="css/ul/stylesheet.css" rel="stylesheet"/>
-    	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-
-    			<!-- jQuery -->
-		<script src="js/jquery-1.11.0.min.js"></script>
-		<script type="text/javascript" src="js/jquery.videoBG.js"></script>
-		<script type="text/javascript" src="js/script.js"></script>
-
+    	<link rel="stylesheet" type="text/css" href="css/Adopt.css" />
 		<meta charset="UTF-8">
-		<title>CORGS 187A</title>
+		<title>Adopt</title>
 	</head>
-	<body id="video_homepage">
+	<body>
 		
 		<!-- Top and Primary Navigation Begin -->
 		<div id="wrapper">
@@ -33,8 +29,8 @@
 					<li id="adopt-li">
 						<a href="Adopt.html" id="adopt" class="dropdown">Adopt</a>
 						<ul id="adopt-drop">
-							<li><a href="facts.html">Adoption Process</a></li>
-							<li><a href="#">Available Corgis</a></li>
+							<li><a href="AdoptionProcess.html">Adoption Process</a></li>
+							<li><a href="CorgiProfiles.html">Available Corgis</a></li>
 							<li><a href="#">Adoption Checklist</a></li>
 							<li><a href="#">Resources</a></li>
 						</ul>
@@ -60,26 +56,41 @@
 					<li id="support-li">
 						<a href="support.html" id="support" class="dropdown">Support Us</a>
 						<ul>
-							<li><a href="#">Donate</a></li>
-							<li><a href="#">Volunteer</a></li>
+							<li><a href="donate.html">Donate</a></li>
+							<li><a href="volunteer.html">Volunteer</a></li>
 						</ul>
 					</li>
 				</ul>
 			</div>
 		</div>
 		<!-- Top and Primary Navigation End -->
-
-		<!-- <div id="main-wrapper">
-			<img src="img/christmas.png" alt="christmas corgis" />
-		</div> -->
-		<div id="main-wrapper">
-			<h1>More than just adorable,</h1>
-			<h1 id="right">They're family.</h1>
-			<button id="adopttodaybutton" type="button">
-				<a id="adopttodayword" href="Adopt.html">Adopt today</a>
-			</button>
-		</div>
-
+		
+		<!-- Main Begin -->
+		<div class="container-fluid" id="main">
+			<h1><a href="support.html">Support Us</a> / Donate</h1>
+			<hr/>
+			<div id="main-content">
+				<h1 class="uppercase">changing lives one corgi at a time</h1>
+				<div class="col-md-5 col-sm-12 ">
+					<div>
+						<img class="img-responsive" src="img/donate-corgi.gif" alt=""/>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-12" id="donate">
+					<h1 id="large-donate">DONATE</h1>
+					<h2>How could your resist that cute face?</h2>
+					<input id="donation-input" type="text" name="amount" class="form-control" placeholder="$20.00" autocomplete="off">
+					<div id="buttons">
+						<button id="once" type="button">Once
+						</button>
+						<button id="monthly" type="button">Monthly
+						</button>
+					</div>
+				</div>
+			</div> <!-- end of row -->
+		</div> 
+		<!-- Main End -->
+	   
 		<footer>
 			<div id="footer-wrapper">
 				<div class="footer-block">
@@ -109,6 +120,7 @@
 							<a class="youtube" href="http://www.youtube.com/UniversityLeicester">YouTube</a>
 						</li>
 					</ul>
+					<p>The University of Leicester  University Road  Leicester, LE1 7RH</p>
 				</div>
 				<div class="footer-block right">
 					<ul>
@@ -127,6 +139,9 @@
 
 			</div>
 		</footer>
+
+		<!-- jQuery + Slider scripts -->
+		<script src="js/jquery-1.11.0.min.js"></script>
 
 	</body>
 </html>
