@@ -47,6 +47,10 @@ article > p {
 		color: purple;
 	}
 
+	.choice ul li {
+		margin-bottom: 7px;
+	}
+
 .left {
 	width: 50%;
 }
