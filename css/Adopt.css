@@ -40,11 +40,11 @@ article > p {
 	}
 	.choice a:link, .choice a:visited {
 		text-decoration: underline;
-		color: #660000;
+		color: black;
 	}
 	.choice a:hover {
 		text-decoration: underline;
-		color: purple;
+		color: #F79205;
 	}
 
 	.choice ul li {
