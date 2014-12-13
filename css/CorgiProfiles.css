@@ -79,6 +79,10 @@ figcaption {
 	font-size: 20px;
 }
 
+.profilepicture {
+	margin-bottom: 50px;
+}
+
 .searchselection {
 	list-style-type: none;
 }
