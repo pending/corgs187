@@ -66,14 +66,11 @@ html, body {
 #submit {
 	background: transparent;
 	border: 1px solid lightgray;
-	padding-bottom: 2px;
+	padding-bottom: 1px;
 	margin-left: -2px;
 }
 input [type="text"] {
 	border: 1px solid gray;
-}
-#submit {
-	background: url(../../img/search.png) no-repeat;
 }
 #adopt-li {
 	width: 100px; 
